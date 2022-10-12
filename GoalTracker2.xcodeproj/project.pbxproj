@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDDA672F28F675CF000D87CF /* GoalTracker2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA672E28F675CF000D87CF /* GoalTracker2App.swift */; };
+		CDDA673128F675CF000D87CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA673028F675CF000D87CF /* ContentView.swift */; };
+		CDDA673328F675D0000D87CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDA673228F675D0000D87CF /* Assets.xcassets */; };
+		CDDA673628F675D0000D87CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDA673528F675D0000D87CF /* Preview Assets.xcassets */; };
+		CDDA673D28F6760A000D87CF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA673C28F6760A000D87CF /* HomeView.swift */; };
+		CDDA673F28F67F01000D87CF /* SmallGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA673E28F67F01000D87CF /* SmallGoalView.swift */; };
+		CDDA674228F67F59000D87CF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA674128F67F59000D87CF /* User.swift */; };
+		CDDA674428F67F60000D87CF /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA674328F67F60000D87CF /* HomeViewModel.swift */; };
+		CDDA674628F67F63000D87CF /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA674528F67F63000D87CF /* Goal.swift */; };
+		CDDA674A28F67FC9000D87CF /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDA674928F67FC9000D87CF /* GoalDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDDA672B28F675CF000D87CF /* GoalTracker2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoalTracker2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDA672E28F675CF000D87CF /* GoalTracker2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTracker2App.swift; sourceTree = "<group>"; };
+		CDDA673028F675CF000D87CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDDA673228F675D0000D87CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDDA673528F675D0000D87CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDDA673C28F6760A000D87CF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDDA673E28F67F01000D87CF /* SmallGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallGoalView.swift; sourceTree = "<group>"; };
+		CDDA674128F67F59000D87CF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CDDA674328F67F60000D87CF /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CDDA674528F67F63000D87CF /* Goal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		CDDA674928F67FC9000D87CF /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDDA672828F675CF000D87CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDDA672228F675CF000D87CF = {
+			isa = PBXGroup;
+			children = (
+				CDDA672D28F675CF000D87CF /* GoalTracker2 */,
+				CDDA672C28F675CF000D87CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDDA672C28F675CF000D87CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA672B28F675CF000D87CF /* GoalTracker2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDDA672D28F675CF000D87CF /* GoalTracker2 */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA674828F67FAE000D87CF /* Views */,
+				CDDA674728F67F71000D87CF /* ViewModels */,
+				CDDA674028F67F49000D87CF /* Models */,
+				CDDA672E28F675CF000D87CF /* GoalTracker2App.swift */,
+				CDDA673028F675CF000D87CF /* ContentView.swift */,
+				CDDA673228F675D0000D87CF /* Assets.xcassets */,
+				CDDA673428F675D0000D87CF /* Preview Content */,
+			);
+			path = GoalTracker2;
+			sourceTree = "<group>";
+		};
+		CDDA673428F675D0000D87CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA673528F675D0000D87CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDDA674028F67F49000D87CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA674128F67F59000D87CF /* User.swift */,
+				CDDA674528F67F63000D87CF /* Goal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDDA674728F67F71000D87CF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA674328F67F60000D87CF /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDDA674828F67FAE000D87CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CDDA673C28F6760A000D87CF /* HomeView.swift */,
+				CDDA674928F67FC9000D87CF /* GoalDetailView.swift */,
+				CDDA673E28F67F01000D87CF /* SmallGoalView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDDA672A28F675CF000D87CF /* GoalTracker2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDA673928F675D0000D87CF /* Build configuration list for PBXNativeTarget "GoalTracker2" */;
+			buildPhases = (
+				CDDA672728F675CF000D87CF /* Sources */,
+				CDDA672828F675CF000D87CF /* Frameworks */,
+				CDDA672928F675CF000D87CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoalTracker2;
+			productName = GoalTracker2;
+			productReference = CDDA672B28F675CF000D87CF /* GoalTracker2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDDA672328F675CF000D87CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CDDA672A28F675CF000D87CF = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = CDDA672628F675CF000D87CF /* Build configuration list for PBXProject "GoalTracker2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDDA672228F675CF000D87CF;
+			productRefGroup = CDDA672C28F675CF000D87CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDA672A28F675CF000D87CF /* GoalTracker2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDDA672928F675CF000D87CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDA673628F675D0000D87CF /* Preview Assets.xcassets in Resources */,
+				CDDA673328F675D0000D87CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDDA672728F675CF000D87CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDA674A28F67FC9000D87CF /* GoalDetailView.swift in Sources */,
+				CDDA673D28F6760A000D87CF /* HomeView.swift in Sources */,
+				CDDA674428F67F60000D87CF /* HomeViewModel.swift in Sources */,
+				CDDA673F28F67F01000D87CF /* SmallGoalView.swift in Sources */,
+				CDDA673128F675CF000D87CF /* ContentView.swift in Sources */,
+				CDDA674228F67F59000D87CF /* User.swift in Sources */,
+				CDDA672F28F675CF000D87CF /* GoalTracker2App.swift in Sources */,
+				CDDA674628F67F63000D87CF /* Goal.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDDA673728F675D0000D87CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDDA673828F675D0000D87CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDA673A28F675D0000D87CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoalTracker2/Preview Content\"";
+				DEVELOPMENT_TEAM = KP537WFKBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnewberr.GoalTracker2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDA673B28F675D0000D87CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GoalTracker2/Preview Content\"";
+				DEVELOPMENT_TEAM = KP537WFKBH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dnewberr.GoalTracker2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDA672628F675CF000D87CF /* Build configuration list for PBXProject "GoalTracker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDA673728F675D0000D87CF /* Debug */,
+				CDDA673828F675D0000D87CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDA673928F675D0000D87CF /* Build configuration list for PBXNativeTarget "GoalTracker2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDA673A28F675D0000D87CF /* Debug */,
+				CDDA673B28F675D0000D87CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDDA672328F675CF000D87CF /* Project object */;
+}
